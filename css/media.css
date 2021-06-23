@@ -88,6 +88,9 @@
     hr {
         margin: 5px auto;
     }
+    .site-description h3 {
+        font-size: 20px;
+    }
     .site-description p {
         font-size: 15px;
         color: #fff;
