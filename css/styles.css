@@ -437,11 +437,11 @@ footer{
     color: #fff;
 }
 
-.copyrightText  a {
+.copyrightText a {
     color: #FF0000;
     text-decoration: none;
 }
 
-.copyrightText center a:hover {
+.copyrightText a:hover {
     text-decoration: underline;
 }
