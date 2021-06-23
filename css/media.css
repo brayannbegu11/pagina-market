@@ -39,7 +39,7 @@
         color: #111;
         font-size: 2em;
     }
-    .menuToggle {
+    header .menuToggle {
         position: relative;
         width: 40px;
         height: 40px;
@@ -50,7 +50,7 @@
         cursor: pointer;
         transition: 0.5s;
     }
-    .menuToggle.active {
+    header .menuToggle.active {
         background: url(../img/closeMenu.png);
         background-size: 25px;
         background-repeat: no-repeat;

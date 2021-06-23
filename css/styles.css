@@ -426,17 +426,18 @@ footer{
     margin: 0 10px;
 }
 
-.copyrightText center {
+.copyrightText {
     padding: 5px;
     font-size: 0.95em;
     background: #498086;
+    text-align: center;
 }
 
-.copyrightText center span {
+.copyrightText span {
     color: #fff;
 }
 
-.copyrightText center a {
+.copyrightText  a {
     color: #FF0000;
     text-decoration: none;
 }
