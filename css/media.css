@@ -43,7 +43,7 @@
         position: relative;
         width: 40px;
         height: 40px;
-        background: url(img/menu.png);
+        background: url(/img/menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
@@ -51,7 +51,7 @@
         transition: 0.5s;
     }
     .menuToggle.active {
-        background: url(img/closeMenu.png);
+        background: url(/img/closeMenu.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
