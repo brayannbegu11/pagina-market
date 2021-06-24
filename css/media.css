@@ -51,7 +51,7 @@
         transition: 0.5s;
     }
     header .menuToggle.active {
-        background: url(../img/closeMenu.png);
+        background: url(closeMenu.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
