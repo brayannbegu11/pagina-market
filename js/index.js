@@ -14,7 +14,7 @@ ScrollReveal().reveal(".content", { delay: 250 });
 ScrollReveal().reveal(".titleText", { delay: 250 });
 ScrollReveal().reveal(".services", { delay: 250 });
 ScrollReveal().reveal(".services-img", { delay: 250 });
-ScrollReveal().reveal(".site", { delay: 400 });
+ScrollReveal().reveal(".site", { delay: 300 });
 ScrollReveal().reveal(".left", { delay: 250 });
 ScrollReveal().reveal(".right", { delay: 250 });
-ScrollReveal().reveal(".copyrightText", { delay: 250 });
+/* ScrollReveal().reveal(".copyrightText", { delay: 250 }); */
