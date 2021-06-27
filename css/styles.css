@@ -68,7 +68,14 @@ header .navigation li a:hover {
     color: #FF0000;
 }
 
-        /* BANNER */
+.mobile-nav {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+/* BANNER */
 .banner {
     position: relative;
     width: 100%;

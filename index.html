@@ -18,15 +18,22 @@
 <body>
     <header>
         <a href="#" class="logo"><img src="img/logo.png" alt="Logo Market Fresh"></a>
-        <div class="menuToggle" onclick="toggleMenu();">
-        </div>
         <ul class="navigation">
             <li><a href="#banner" onclick="toggleMenu();">Inicio</a></li>
-            <li><a href="#about" onclick="toggleMenu();">Sobre nosotros</a></li>
+            <li><a href="#about" onclick="toggleMenu();">Servicios</a></li>
             <li><a href="#sites" onclick="toggleMenu();">Encuentranos</a></li>
             <li><a href="#contact" onclick="toggleMenu();">Acerca de</a></li>
         </ul>
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
     </header>
+    <nav class="mobile-nav">
+        <a href="#banner" onclick="toggleMenu();">Inicio</a>
+        <a href="#about" onclick="toggleMenu();">Servicios</a>
+        <a href="#sites" onclick="toggleMenu();">Encuentranos</a>
+        <a href="#contact" onclick="toggleMenu();">Acerca de</a>
+    </nav>
     <section class="banner" id="banner">
         <div class="content">
             <h2><span class="market">Market</span><span class="fresh">Fresh</span> </h2>

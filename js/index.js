@@ -1,13 +1,19 @@
+const menu_btn =document.querySelector('.hamburger');
+const mobile_menu = document.querySelector('.mobile-nav');
+
 window.addEventListener('scroll', function(){
     var header = document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0);
 })
 
+menu_btn.addEventListener('click', function(){
+    menu_btn.classList.toggle('is-active');
+    mobile_menu.classList.toggle ('is-active');
+})
+
 function toggleMenu() {
-    const menuToggle = document.querySelector('.menuToggle');
-    const navigation = document.querySelector('.navigation');
-    menuToggle.classList.toggle('active');
-    navigation.classList.toggle('active');
+    menu_btn.classList.remove('is-active');
+    mobile_menu.classList.remove('is-active');
 }
 
 ScrollReveal().reveal(".content", { delay: 250 });
