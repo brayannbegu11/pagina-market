@@ -56,7 +56,6 @@
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
-        transition: 0.5s;
         z-index: 10000;
     }
     .banner .content h2 {
