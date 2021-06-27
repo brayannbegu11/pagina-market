@@ -4,7 +4,7 @@ const mobile_menu = document.querySelector('.mobile-nav');
 window.addEventListener('scroll', function(){
     var header = document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0);
-})
+});
 
 menu_btn.addEventListener('click', function(){
     menu_btn.classList.toggle('is-active');

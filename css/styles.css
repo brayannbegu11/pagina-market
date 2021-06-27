@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
 }
 
 :root {
@@ -32,7 +31,7 @@ header {
         /* BARRA DE NAVEGACION */
 
 header.sticky {
-    background: rgba(106, 189, 198, 0.8);
+    background: rgba(106, 189, 198, 1);
     padding: 10px 100px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.05);
     transition: 0.5s;
@@ -66,6 +65,28 @@ header.sticky .logo img {
 
 header .navigation li a:hover {
     color: #FF0000;
+}
+
+.navigation li a.active {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #FF0000;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+header.sticky .navigation li a.active {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #FF0000;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
 }
 
 .mobile-nav {

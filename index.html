@@ -16,13 +16,13 @@
 </head>
 
 <body>
-    <header>
-        <a href="#" class="logo"><img src="img/logo.png" alt="Logo Market Fresh"></a>
+    <header class="page-header page-section">
+        <a href="#banner" class="logo"><img src="img/logo.png" alt="Logo Market Fresh"></a>
         <ul class="navigation">
-            <li><a href="#banner" onclick="toggleMenu();">Inicio</a></li>
-            <li><a href="#about" onclick="toggleMenu();">Servicios</a></li>
-            <li><a href="#sites" onclick="toggleMenu();">Encuentranos</a></li>
-            <li><a href="#contact" onclick="toggleMenu();">Acerca de</a></li>
+            <li><a href="#banner" class="active">Inicio</a></li>
+            <li><a href="#about">Servicios</a></li>
+            <li><a href="#sites">Encuentranos</a></li>
+            <li><a href="#contact">Acerca de</a></li>
         </ul>
         <button class="hamburger">
             <div class="bar"></div>
@@ -41,7 +41,7 @@
             <a href="#sites" class="btn">Encuentranos!</a>
         </div>
     </section>
-    <section id="about">
+    <section id="about" class="page-section">
         <div class="titleText">
             <p>SERVICIOS</p>
             <h1>¿Por qué elegirnos?</h1>
@@ -81,7 +81,7 @@
             </div>
         </div>
     </section>
-    <section id="sites">
+    <section id="sites" class="page-section">
         <div class="titleText">
             <p>Encuentranos</p>
             <h1>Conoce nuestros puntos de venta!</h1>
@@ -155,7 +155,7 @@
             </div>
         </div>
     </section>
-    <footer id="contact">
+    <footer id="contact" class="page-section">
         <div class="main-content">
             <div class="left box">
                 <h2>Sobre nosotros</h2>
@@ -194,6 +194,7 @@
     </div>
     </footer>    
     <script src="js/index.js"></script>
+    <script src="js/scroll.js"></script>
 </body>
 
 </html>
