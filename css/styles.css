@@ -151,6 +151,7 @@ header.sticky .navigation li a.active {
 
 section {
     padding: 100px 0;
+    overflow: hidden;
 }
 
         /* SECCION SERVICIOS */
