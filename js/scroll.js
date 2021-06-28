@@ -1,6 +1,6 @@
 const links = document.querySelectorAll(".page-header a");
 const linksMobile = document.querySelectorAll(".mobile-nav a");
-const linkBtn = document.querySelectorAll(".banner a");
+const linkBtn = document.querySelectorAll(".banner-sec a");
 
 for (const link of links) {
     link.addEventListener("click", clickHandler);

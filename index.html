@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.86">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css?270621">
@@ -16,13 +16,13 @@
 </head>
 
 <body>
-    <header class="page-header page-section">
+    <header class="page-header">
         <a href="#banner" class="logo"><img src="img/logo.png" alt="Logo Market Fresh"></a>
         <ul class="navigation">
-            <li><a href="#banner" class="active">Inicio</a></li>
-            <li><a href="#about">Servicios</a></li>
-            <li><a href="#sites">Encuentranos</a></li>
-            <li><a href="#contact">Acerca de</a></li>
+            <li><a href="#banner" class="banner active">Inicio</a></li>
+            <li><a href="#about" class="about">Servicios</a></li>
+            <li><a href="#sites" class="sites">Encuentranos</a></li>
+            <li><a href="#contact" class="contact">Acerca de</a></li>
         </ul>
         <button class="hamburger">
             <div class="bar"></div>
@@ -34,7 +34,7 @@
         <a href="#sites" onclick="toggleMenu();">Encuentranos</a>
         <a href="#contact" onclick="toggleMenu();">Acerca de</a>
     </nav>
-    <section class="banner" id="banner">
+    <section class="banner-sec" id="banner">
         <div class="content">
             <h2><span class="market">Market</span><span class="fresh">Fresh</span> </h2>
             <p>Especialistas en la venta de viveres y abarrotes</p>
@@ -192,9 +192,10 @@
             <span class="credit">Creado por <a href="#">MarketFresh</a> | </span>
             <span class="far fa-cop"></span><span>2021 Todos los derechos reservados</span>
     </div>
-    </footer>    
+    </footer>   
     <script src="js/index.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/activeBar.js"></script> 
 </body>
 
 </html>

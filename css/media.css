@@ -75,13 +75,17 @@
     .mobile-nav a:hover {
         background-color: #75f1ff;
     }
-    .banner .content h2 {
+    .banner-sec .content h2 {
         font-size: 4em;
     }
 
-    .banner .content p {
+    .banner-sec .content p {
         font-size: 1.5em;
     }
+    .banner-sec .content .btn {
+        font-size: 2em;
+    }
+
 
     .titleText h1 {
         font-size: 30px;
